@@ -27,3 +27,30 @@
 Выполненное домашнее задание пришлите в виде ссылки на .md-файл в вашем репозитории.
 
 ---
+Playbook успешнно отрабатывает: 
+
+![alt text](<../../../../Desktop/Снимок экрана 2024-05-07 в 21.17.26.png>)
+
+Он находится [тут](https://github.com/alexandreevich/mnt-homeworks/blob/MNT-video/08-ansible-02-playbook/playbook/all.yml) 
+
+Инвентарник находится [тут](https://github.com/alexandreevich/mnt-homeworks/blob/MNT-video/08-ansible-02-playbook/playbook/inventory/prod.yml)
+
+ Переменные находятся [тут] (https://github.com/alexandreevich/mnt-homeworks/tree/MNT-video/08-ansible-02-playbook/playbook/group_vars)
+
+Playbook устанавливает сервисы clickhouse и vector.
+
+Для установки сервиса clickhouse с сайта разработчика устанавливаются пакеты:
+
+    clickhouse-common-static
+    clickhouse-server
+    clickhouse-client
+
+Для установки сервиса vector с сайта разработчика устанавливаются пакеты:
+
+vector
+
+
+Playbook использует следующие переменные:
+
+    clickhouse_version - требуемая версия clickhouse
+    vector_version - требуемая версия vector
