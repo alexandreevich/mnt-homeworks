@@ -29,7 +29,8 @@
 ---
 Playbook успешнно отрабатывает: 
 
-![alt text](<../../../../Desktop/Снимок экрана 2024-05-07 в 21.17.26.png>)
+<img width="1029" alt="Снимок экрана 2024-05-07 в 21 17 26" src="https://github.com/alexandreevich/mnt-homeworks/assets/109306886/0b15d575-33b3-44c5-aa0a-bfad910af3d9">
+
 
 Он находится [тут](https://github.com/alexandreevich/mnt-homeworks/blob/MNT-video/08-ansible-02-playbook/playbook/all.yml) 
 
