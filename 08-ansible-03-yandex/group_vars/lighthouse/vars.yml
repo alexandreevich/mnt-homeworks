@@ -1,0 +1,3 @@
+---
+lighthouse_git: "https://github.com/VKCOM/lighthouse.git"
+lighthouse_dir: "/etc/nginx/lighthouse"
