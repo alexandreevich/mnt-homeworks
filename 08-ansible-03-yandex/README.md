@@ -27,11 +27,12 @@
 ---
 
 ## Ответ
-Плейбук находится по [ссылке](https://github.com/alexandreevich/mnt-homeworks/blob/MNT-video/08-ansible-02-playbook/playbook/all.yml)
-IP развернутых в Yandex Cloud вписываются в [инвентарник] (https://github.com/alexandreevich/mnt-homeworks/blob/MNT-video/08-ansible-02-playbook/playbook/all.yml)
+Плейбук находится по [ссылке](https://github.com/alexandreevich/mnt-homeworks/blob/MNT-video/08-ansible-03-yandex/site.yml)
+
+IP развернутых в Yandex Cloud вписываются в [инвентарник](https://github.com/alexandreevich/mnt-homeworks/tree/MNT-video/08-ansible-03-yandex/inventory)
 На каждый отдельный хост встает соответсвенное ПО. 
-Версии ПО можно изменить в файле [group_vars](https://github.com/alexandreevich/mnt-homeworks/blob/MNT-video/08-ansible-02-playbook/playbook/all.yml)
+Версии ПО можно изменить в файле [group_vars](https://github.com/alexandreevich/mnt-homeworks/tree/MNT-video/08-ansible-03-yandex/group_vars)
 
 Плейбук успешно отрабатывает, прикладываю скриншот: 
 
-![alt text](<../../../../Desktop/Снимок экрана 2024-05-19 в 12.43.47.png>)
+![Снимок экрана 2024-05-19 в 12 43 47](https://github.com/alexandreevich/mnt-homeworks/assets/109306886/a27791ae-c681-439f-afd4-7c9bf1cedce5)
