@@ -25,3 +25,13 @@
 Выполненное домашнее задание пришлите в виде ссылки на .md-файл в вашем репозитории.
 
 ---
+
+## Ответ
+Плейбук находится по [ссылке](https://github.com/alexandreevich/mnt-homeworks/blob/MNT-video/08-ansible-02-playbook/playbook/all.yml)
+IP развернутых в Yandex Cloud вписываются в [инвентарник] (https://github.com/alexandreevich/mnt-homeworks/blob/MNT-video/08-ansible-02-playbook/playbook/all.yml)
+На каждый отдельный хост встает соответсвенное ПО. 
+Версии ПО можно изменить в файле [group_vars](https://github.com/alexandreevich/mnt-homeworks/blob/MNT-video/08-ansible-02-playbook/playbook/all.yml)
+
+Плейбук успешно отрабатывает, прикладываю скриншот: 
+
+![alt text](<../../../../Desktop/Снимок экрана 2024-05-19 в 12.43.47.png>)
