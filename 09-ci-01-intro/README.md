@@ -41,32 +41,40 @@
 **Ответ**
 Две доски:
 
-![alt text](<../../../../Desktop/Снимок экрана 2024-05-20 в 15.31.21.png>)
+![Снимок экрана 2024-05-20 в 15 31 21](https://github.com/alexandreevich/mnt-homeworks/assets/109306886/f29ad9dc-4fcb-4ea6-a6a1-bb467f31945d)
+
 
 Два вида задач:
 
-![alt text](<../../../../Desktop/Снимок экрана 2024-05-20 в 16.14.31.png>) 
-![alt text](<../../../../Desktop/Снимок экрана 2024-05-20 в 16.17.18.png>)
+![Снимок экрана 2024-05-20 в 16 14 31](https://github.com/alexandreevich/mnt-homeworks/assets/109306886/f75c93ec-fbbd-47f7-9fbb-f166c9292e92)
+![Снимок экрана 2024-05-20 в 16 17 18](https://github.com/alexandreevich/mnt-homeworks/assets/109306886/b6d6aac6-83c1-4695-a582-4ec45612c274)
+
 
 Проведение задачи по воркфлоу:
 
-![alt text](<../../../../Desktop/Снимок экрана 2024-05-20 в 16.24.33.png>)
+![Снимок экрана 2024-05-20 в 16 24 33](https://github.com/alexandreevich/mnt-homeworks/assets/109306886/1bf1a6f0-80e2-452c-8fdd-eed47c030afe)
+
 
 Другой:
 
-![alt text](<../../../../Desktop/Снимок экрана 2024-05-20 в 16.38.08.png>)
+![Снимок экрана 2024-05-20 в 16 38 08](https://github.com/alexandreevich/mnt-homeworks/assets/109306886/9fbdcd10-6a34-4681-b61a-f6745a9b5dfa)
+
 
 Эпик:
 
-![alt text](<../../../../Desktop/Снимок экрана 2024-05-20 в 17.03.49.png>)
+![Снимок экрана 2024-05-20 в 17 03 49](https://github.com/alexandreevich/mnt-homeworks/assets/109306886/fde28833-fd97-448b-ac3e-d2d96de3f5c0)
+
 
 Спринт:
 
-![alt text](<../../../../Desktop/Снимок экрана 2024-05-20 в 17.04.23.png>)
+![Снимок экрана 2024-05-20 в 17 04 23](https://github.com/alexandreevich/mnt-homeworks/assets/109306886/1d647366-dd4b-45b2-9386-0d75d85b864f)
+
 
 Ссылки на xml:
-раз
-два
+
+[раз](https://github.com/alexandreevich/mnt-homeworks/blob/MNT-video/09-ci-01-intro/xml/bug) 
+
+[два](https://github.com/alexandreevich/mnt-homeworks/blob/MNT-video/09-ci-01-intro/xml/other) 
 
 ### Как оформить решение задания
 
