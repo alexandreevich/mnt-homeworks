@@ -11,6 +11,17 @@
 7.  Проверьте готовность Nexus через [бразуер](http://localhost:8081).
 8. Подключитесь под admin\admin123, поменяйте пароль, сохраните анонимный доступ.
 
+Playbook с первого раза не отработал, так как 11-ая постгра не доступна) Поменял на 12-ую и заработало) 
+![Снимок экрана 2024-06-22 в 13 45 13](https://github.com/alexandreevich/mnt-homeworks/assets/109306886/0d11b01b-aa68-43d7-9a50-a3efe180ca49)
+
+SonarType: 
+
+![Снимок экрана 2024-06-22 в 13 48 55](https://github.com/alexandreevich/mnt-homeworks/assets/109306886/4d1f32ed-1170-4784-b1c1-9e6e4998e4ea)
+
+SonarQube: 
+
+![Снимок экрана 2024-06-22 в 13 49 04](https://github.com/alexandreevich/mnt-homeworks/assets/109306886/1c2b2a33-254f-4e18-8cda-5447978de2d1)
+
 ## Знакомоство с SonarQube
 
 ### Основная часть
@@ -24,6 +35,22 @@
 7. Исправьте ошибки, которые он выявил, включая warnings.
 8. Запустите анализатор повторно — проверьте, что QG пройдены успешно.
 9. Сделайте скриншот успешного прохождения анализа, приложите к решению ДЗ.
+
+Sonar-scaner на месте: 
+
+![Снимок экрана 2024-06-22 в 13 58 06](https://github.com/alexandreevich/mnt-homeworks/assets/109306886/3957c85c-4c5e-47c1-8efa-c6b682d4c2ea)
+
+Первый прогон:
+
+![Снимок экрана 2024-06-22 в 14 05 37](https://github.com/alexandreevich/mnt-homeworks/assets/109306886/b1f4758d-731c-4e56-80b8-58c9230d3407)
+
+
+Второй:
+
+![Снимок экрана 2024-06-22 в 14 13 27](https://github.com/alexandreevich/mnt-homeworks/assets/109306886/1151e869-99b4-4507-a1b4-ad2c4820fd3b)
+
+
+
 
 ## Знакомство с Nexus
 
@@ -41,6 +68,8 @@
 3. Проверьте, что все файлы загрузились успешно.
 4. В ответе пришлите файл `maven-metadata.xml` для этого артефекта.
 
+Ссылка [тут](https://github.com/alexandreevich/mnt-homeworks/blob/MNT-video/09-ci-03-cicd/mvn/maven-metadata.xml)
+
 ### Знакомство с Maven
 
 ### Подготовка к выполнению
@@ -57,6 +86,17 @@
 2. Запустите команду `mvn package` в директории с `pom.xml`, ожидайте успешного окончания.
 3. Проверьте директорию `~/.m2/repository/`, найдите ваш артефакт.
 4. В ответе пришлите исправленный файл `pom.xml`.
+
+Билд успешно отработал: 
+
+![Снимок экрана 2024-06-22 в 15 41 08](https://github.com/alexandreevich/mnt-homeworks/assets/109306886/93bbacd5-0fb8-42ee-adb7-3bc1e7fde36a)
+
+Локально все на месте: 
+
+![Снимок экрана 2024-06-22 в 15 42 50](https://github.com/alexandreevich/mnt-homeworks/assets/109306886/cd093344-1fb2-4632-b971-28faac361789)
+
+
+Ссылка на pom [тут](https://github.com/alexandreevich/mnt-homeworks/blob/MNT-video/09-ci-03-cicd/mvn/pom.xml)
 
 ---
 
