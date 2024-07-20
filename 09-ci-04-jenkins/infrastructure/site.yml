@@ -109,6 +109,9 @@
         name:
           - selinux
           - ansible<3.0
+          - molecule==3.4.0
+          - molecule-docker==1.1.0
+          - requests==2.24.0
         state: present
     - name: Reinstall Selinux
       become_user: root
