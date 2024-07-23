@@ -7,6 +7,22 @@
 3. Запустить и проверить работоспособность.
 4. Сделать первоначальную настройку.
 
+## Ответ
+ВМ развернуты: 
+
+
+![Снимок экрана 2024-07-20 в 15 57 01](https://github.com/user-attachments/assets/63b3a839-32f7-4ffe-9ac1-94a4c08b9f3e)
+
+Ansible-playbook отработал корректно:
+
+<img width="1281" alt="Снимок экрана 2024-07-20 в 19 51 13" src="https://github.com/user-attachments/assets/0d4a508b-f6df-4697-a02a-e87250444d7d">
+
+
+Взаимосвязь master - slave настроена:
+
+![Снимок экрана 2024-07-20 в 15 58 13](https://github.com/user-attachments/assets/970fda77-b308-4f21-aaf4-c91ec29ba4a8)
+
+
 ## Основная часть
 
 1. Сделать Freestyle Job, который будет запускать `molecule test` из любого вашего репозитория с ролью.
