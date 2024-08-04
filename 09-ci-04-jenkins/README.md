@@ -7,6 +7,22 @@
 3. Запустить и проверить работоспособность.
 4. Сделать первоначальную настройку.
 
+## Ответ
+ВМ развернуты: 
+
+
+![Снимок экрана 2024-07-20 в 15 57 01](https://github.com/user-attachments/assets/63b3a839-32f7-4ffe-9ac1-94a4c08b9f3e)
+
+Ansible-playbook отработал корректно:
+
+<img width="1281" alt="Снимок экрана 2024-07-20 в 19 51 13" src="https://github.com/user-attachments/assets/0d4a508b-f6df-4697-a02a-e87250444d7d">
+
+
+Взаимосвязь master - slave настроена:
+
+![Снимок экрана 2024-07-20 в 15 58 13](https://github.com/user-attachments/assets/970fda77-b308-4f21-aaf4-c91ec29ba4a8)
+
+
 ## Основная часть
 
 1. Сделать Freestyle Job, который будет запускать `molecule test` из любого вашего репозитория с ролью.
@@ -18,6 +34,57 @@
 7. Проверить работоспособность, исправить ошибки, исправленный Pipeline вложить в репозиторий в файл `ScriptedJenkinsfile`.
 8. Отправить ссылку на репозиторий с ролью и Declarative Pipeline и Scripted Pipeline.
 9. Сопроводите процесс настройки скриншотами для каждого пункта задания!!
+
+## Ответ
+
+1. Добавил в плейбук: 
+<img width="346" alt="Снимок экрана 2024-07-23 в 18 39 27" src="https://github.com/user-attachments/assets/253f681b-15a8-4344-b82f-cdbcd0af8fe0">
+
+Джоба отработала корректно: 
+
+<img width="1107" alt="Снимок экрана 2024-07-20 в 20 53 25" src="https://github.com/user-attachments/assets/10bd2569-30a3-4ce8-a84a-bb1d32710396">
+
+2. Отработал корректно:
+
+```
+pipeline {
+    agent {
+        label 'ansible'
+    }
+    stages {
+        stage('Clear work dir') {
+            steps {
+                deleteDir()
+            }
+        }
+        stage('Clone git repo') {
+            steps {
+                dir('vector-role') {
+                git branch: 'main', url: 'https://github.com/kibernetiq/vector-role.git'
+                }
+            }
+        }
+        stage('Molecule test') {
+            steps {
+                dir('vector-role') {
+                sh 'molecule test'
+                }
+            }
+        }
+    }
+}
+```
+
+<img width="823" alt="Снимок экрана 2024-07-20 в 21 16 34" src="https://github.com/user-attachments/assets/5fa3d5c0-4bd2-4219-bb94-e1de6c777f50">
+
+![Снимок экрана 2024-07-20 в 19 16 24](https://github.com/user-attachments/assets/11dc0501-918f-4387-b59c-9c92ddd9736c)
+
+3. Multibranch Pipeline отработал успешно. 
+![FJ_success](https://github.com/user-attachments/assets/e6beb872-413c-4eb9-9e41-274b1c9ad857)
+
+4. Файл добавлен [тут](https://github.com/alexandreevich/mnt-homeworks/blob/MNT-video/09-ci-04-jenkins/pipeline/ScriptedJenkinsfile) 
+Отработал успешно. 
+
 
 ## Необязательная часть
 
